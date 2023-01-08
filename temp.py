@@ -9,6 +9,7 @@ TEST_DATA: list[tuple] = [
 BONUS = 1.1
 ANTIBONUS = 0.8
 
+
 def add_rep(current_rep, rep_points, buf_effect):
     current_rep += rep_points
     if buf_effect:
